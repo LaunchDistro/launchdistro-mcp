@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.LaunchDistro/launchdistro-mcp",
+  "title": "LaunchDistro",
+  "description": "Plan startup directory submissions and verify the links went live, with your own AI agent.",
+  "repository": {
+    "url": "https://github.com/LaunchDistro/launchdistro-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://launchdistro.com/api/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer <token>, with a token created for your AI app at https://launchdistro.com/dashboard/setup (it starts with ld_agent_)",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
