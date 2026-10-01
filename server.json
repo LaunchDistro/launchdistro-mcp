@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.LaunchDistro/launchdistro-mcp",
+  "name": "com.launchdistro/launchdistro-mcp",
   "title": "LaunchDistro",
   "description": "Plan startup directory submissions and verify the links went live, with your own AI agent.",
   "repository": {
